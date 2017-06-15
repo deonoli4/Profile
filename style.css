@@ -1,0 +1,75 @@
+/*--------Container Background---*/
+#gradient {
+    background: linear-gradient(to left,#c2d6d6 , #f0f5f5);
+    
+} 
+/*---------Typography----*/
+#heading {
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+.container h1, h2, h3, h5, h6 {
+    font-family: 'Pirata One';
+    text-align: center;
+    text-transform: uppercase;
+    color: #5274aa;
+    
+}
+p, li {
+    font-family: 'Shadows Into Light Two';
+    font-size: 18px;
+    color: #5274aa;
+}
+
+/*-----------------Around the Web-----------*/
+.icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #5274aa;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 15px;
+    margin: 5px;
+    
+}
+.icon:hover {
+    background: #b3e0ff;
+    cursor: pointer;
+}
+
+.fa-facebook-square,
+.fa-linkedin-square,
+.fa-github-square {
+    color: #5274aa;
+}
+.fa-facebook-square:hover,
+.fa-linkedin-square:hover,
+.fa-github-square:hover {
+    color: #ccebff;
+}
+footer {
+    text-align: center;
+    color: #5274aa;
+}
+
+/*--------Back to Top Button-----------*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #ccebff;
+  color: #5274aa;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+

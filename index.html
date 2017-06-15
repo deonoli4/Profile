@@ -1,0 +1,132 @@
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family/Shadows+Into+Light+Two" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family/Pirata+One" rel="stylesheet">
+    
+</head>
+  <header class="container" style="background:linear-gradient(to right, #1f3d79 , #ccccff)">  
+  <div class="navbar-header">
+   <h3><span>Deon </span>Olivier</h3>
+   </div>
+    <ul class="nav navbar-nav navbar-right">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#Projects">Projects</a></li>
+    <li><a href="#platforms">Learning Platforms</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+   
+    
+    </header>
+    
+    <body style="background:linear-gradient(to bottom, #1f3d79 , #ccccff)">
+    <div id="gradient" class="container">
+    <!------------------Scroll to Top Button--------------->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <!------------------------About Me----------------------->
+    <h1 id="heading">Web Designer</h1>
+     <h2>About Me!</h2>
+      <div class="row" style="border-bottom:1px solid #5274aa">
+      <div class="col-md-8">  
+      <p>As it is in life, you must go were life takes you. You get your UP’s and DOWNS’s that life throws at you and you must decide how to handle each of them. As a 42 year old male living in South Africa I had my fair share of up and downs, each one different and harder than the one before, but life do not wait for anyone and you must push on.</p>
+      <p>During one of the latest DOWN’s in my life, I struggled to find a career path to persue. I strived in my field as a Manager in the Financial Industry, however I wanted more out of life, I needed some new challenges and had to learn something new.</p>
+      <p>After High School I enrolled in the National Defense Force for one year, my hopes and dream set on attending University to study Law. This were my first DOWN in life, as to financial constraint’s this dream died a very fast death.</p>
+      <p>So what is next?  Let’s go and study Computer Programming at the Local Collage, since this was a second passion in my life. Well this also did not realize, my Math’s grade were too bad.</p>
+      <div class="row">
+      <div class="col-md-9" style="width:1100px">
+      <p>UP’s and DOWN’s like I mentioned earlier! So where do I go from here, what do I do!!! So I started my working career in all kind of fields, working hard and achieving really big goals in life, yet there were something missing.</p>
+      <p>So as I were sitting at Home, wondering what my next step in life will be, “What will I do?” I decided to look at some videos about coding, making web sites and really learning how to Code.</p>
+      <p>Then it were decided, this what I will be doing, this is now my passion, all I want to do is to learn how code, learning code have taken over my world.</p>
+      <p>I am really trying everything to get good at this. And I will, I will succeed the more I code the better I get.</p>
+      <p>With all the amazing open source sites on the web, how can one not succeed? </p>
+      </div>
+      </div>
+      </div>    
+      <div class="col-md-4">
+      <img src="img/deon.jpg" alt="Image Deon Olivier">
+      </div>
+      </div>     
+       <!------------------------------------------------------------>
+          
+        <!---Current Projects---->    
+        <div id="Projects" class="row" style="border-bottom:1px solid #5274aa">    
+         <h2>My Recent Projects</h2>
+          <div class="col-md-6">
+          <h3>My First Webpage</h3>
+          <img src="img/Tribute-Page.png" class="img-thumbnail" alt="Tribute-Page">
+          <h5>Tribute Page</h5>
+          <h6>Brackets,Bootstrap,HTML5 and CSS3!!</h6>
+          </div>
+          <div class="col-md-6">
+          <h3>Second Webpage</h3>
+          <img src="img/portfolio-1.png" width="540" height="200" class="img-thumbnail" alt="Portfolio-Page">
+          <h5>My Portfolio</h5>
+          <h6>Brackets,Bootstrap,HTML5,CSS3 and JScript!!</h6>
+          </div>
+          </div>
+       <!--------------------------------------------------->
+        <!------------Education---------------------------->
+       <h2>Learning Platforms</h2>
+        <div id="platforms" class="row" style="border-bottom:1px solid #5274aa" > 
+        <div class="col-md-6" style="text-align:center">
+        <h3>Code Academy</h3>
+        <a href="https://www.codecademy.com/users/DeonOli4/achievements" target="_blank"><img src="img/logo-codecademy.png" width="225" height="225" class="img-thumbnail" alt="Code Academy Logo"></a>
+        <p><strong>36 Badges Earned so Far!!</strong></p>
+        </div>
+        <div class="col-md-6" style="text-align:center">
+        <h3>free code camp</h3>
+        <a href="https://www.freecodecamp.com/deonoli4" target="_blank"><img src="img/free-code-camp.png" class="img-thumbnail" alt="Free Code Camp Logo"></a>
+        <p><strong>Level 119; Still Learning!!</strong></p>
+        </div>
+        </div>
+       <!--------------Education End---------------->
+        <h2>Contact and Social Media</h2>
+         <div id="contact" class="row" style="border-bottom:1px solid #5274aa" > 
+         <div class="col-md-6" style="text-align:center">    
+         <h3>Connect with me: <br>
+         <address><a href="mailto:deonoli4@gmail.com">Deon Olivier</a></address></h3>
+         </div>
+         <div class="col-md-6" style="text-align:center">
+         <h3>Around the Web</h3>
+         <a class="icon fa fa-facebook-square" href="https://www.facebook.com/deon.olivier.12/" target="_blank"></a>
+         <a class="icon fa fa-linkedin-square" href="https://www.linkedin.com/in/deon-olivier-aa269a128/" target="_blank"></a>
+         <a class="icon fa fa-github-square" href="https://github.com/deonoli4" target="_blank"></a>
+         </div>
+         </div>
+<!------------------------Footer-------------------------------->           
+        <footer>
+        <small>&copy; Written and Coded by <a href="#">Deon Olivier</a></small>
+       </footer>
+           
+
+    
+        
+</body>
+</html>
